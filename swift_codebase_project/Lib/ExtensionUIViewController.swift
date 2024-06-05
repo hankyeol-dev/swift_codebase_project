@@ -15,7 +15,7 @@ enum BackgroundType {
 }
 
 extension UIViewController {
-    func setBackgroundColor(type: BackgroundType) {
+    func _setBackgroundColor(type: BackgroundType) {
         switch type {
         case .defaults:
             view.backgroundColor = .white

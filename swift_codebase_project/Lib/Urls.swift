@@ -9,4 +9,5 @@ import Foundation
 
 enum Urls: String {
     case lottery = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo="
+    case boxOffice = "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?"
 }

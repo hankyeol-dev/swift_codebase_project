@@ -74,7 +74,7 @@ class LotteryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setBackgroundColor(type: .defaults)
+        self._setBackgroundColor(type: .defaults)
         
         configureSubView()
         configureLayout()

@@ -24,6 +24,8 @@
 		81D76A052C103F7A00E3D9A7 /* Lottery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D76A042C103F7A00E3D9A7 /* Lottery.swift */; };
 		81D76A072C104D7400E3D9A7 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D76A062C104D7400E3D9A7 /* Urls.swift */; };
 		81D76A092C10514400E3D9A7 /* ExtensionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D76A082C10514400E3D9A7 /* ExtensionLabel.swift */; };
+		81D76A0C2C1058BE00E3D9A7 /* BoxOfficeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D76A0B2C1058BE00E3D9A7 /* BoxOfficeCell.swift */; };
+		81D76A0E2C10654000E3D9A7 /* BoxOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D76A0D2C10654000E3D9A7 /* BoxOffice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		81D76A042C103F7A00E3D9A7 /* Lottery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottery.swift; sourceTree = "<group>"; };
 		81D76A062C104D7400E3D9A7 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		81D76A082C10514400E3D9A7 /* ExtensionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionLabel.swift; sourceTree = "<group>"; };
+		81D76A0B2C1058BE00E3D9A7 /* BoxOfficeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfficeCell.swift; sourceTree = "<group>"; };
+		81D76A0D2C10654000E3D9A7 /* BoxOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOffice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		81D769D62C1031B400E3D9A7 /* swift_codebase_project */ = {
 			isa = PBXGroup;
 			children = (
+				81D76A0A2C10585900E3D9A7 /* View */,
 				81D76A032C103F7300E3D9A7 /* Model */,
 				81D769FC2C103C9A00E3D9A7 /* VC */,
 				81D769F52C103B0B00E3D9A7 /* Lib */,
@@ -118,8 +123,17 @@
 			isa = PBXGroup;
 			children = (
 				81D76A042C103F7A00E3D9A7 /* Lottery.swift */,
+				81D76A0D2C10654000E3D9A7 /* BoxOffice.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		81D76A0A2C10585900E3D9A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81D76A0B2C1058BE00E3D9A7 /* BoxOfficeCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,8 +224,10 @@
 				81D76A022C103D9400E3D9A7 /* ExtensionUIViewController.swift in Sources */,
 				81D769F72C103B3300E3D9A7 /* ExtensionVCIdentifier.swift in Sources */,
 				81D769EE2C10331100E3D9A7 /* APIKey.swift in Sources */,
+				81D76A0E2C10654000E3D9A7 /* BoxOffice.swift in Sources */,
 				81D76A002C103D2300E3D9A7 /* WeatherViewController.swift in Sources */,
 				81D769FB2C103C8E00E3D9A7 /* LotteryViewController.swift in Sources */,
+				81D76A0C2C1058BE00E3D9A7 /* BoxOfficeCell.swift in Sources */,
 				81D769DA2C1031B400E3D9A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

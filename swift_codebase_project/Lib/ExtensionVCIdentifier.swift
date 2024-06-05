@@ -17,3 +17,9 @@ extension UIViewController: SetIdentifier {
         return String(describing: self)
     }
 }
+
+extension UITableViewCell: SetIdentifier {
+    static var id: String {
+        return String(describing: self)
+    }
+}
